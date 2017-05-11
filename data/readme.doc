@@ -1,0 +1,21 @@
+In the following directories are daily UV Index forecasts for each of the 
+original 58 cities.  A file "cities.lst" gives the full name of the 3 letter
+station name.  
+Years < 2006: The data within each city file contains the forecast date,
+station id, clear sky UV Index, UV Index Issued (inclusion of cloud effects),
+percent probability clear, percent probability scattered, percent probability
+broken, total ozone amount.  Percent probability overcast is not given, it is
+computed from 1 - (%clr + %scat + %brkn).
+
+Years 2006+ : Columns are: Station Name, Date (YYYYMMDD), Clear Sky UVI, 
+Cloudy Sky UVI, Cloud Transmission, Solar Zenith Angle, Aerosol Transmission,
+and Total column ozone.
+
+Not every day is recorded so beware of gaps in coverage.
+
+If you have any questions contact me:
+
+Craig S. Long
+NOAA/National Weather Service
+craig.long at noaa.gov
+
